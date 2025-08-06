@@ -6,23 +6,23 @@ This project explores the relationship between wind generation, load, temperatur
 
 ### Key Visuals
 
-- ** Wind vs Congestion Correlation Map (Geospatial)**
+- **Wind vs Congestion Correlation Map (Geospatial)**
   - Visualizes average wind-congestion correlation by state.
   - Helps identify which regions are more sensitive to wind output in relation to congestion.
 
-- ** Heatmap: Weather, Load, and Wind Lagged Correlation**
+- **Heatmap: Weather, Load, and Wind Lagged Correlation**
   - Correlation of congestion with lagged values of temperature, load, and wind.
   - Supports identification of temporal influence on congestion.
 
-- ** Top Constraints Per Area (Bar Chart)**
+- **Top Constraints Per Area (Bar Chart)**
   - Displays the most influential constraints (by correlation) for each utility or area.
   - Highlights recurring transmission bottlenecks.
 
-- ** Correlation Strength vs Lag (Line Chart)**
+- **Correlation Strength vs Lag (Line Chart)**
   - Shows how correlation between wind and congestion varies with different lags.
   - Useful for understanding delayed system response to wind changes.
 
-- ** Bipartite Network Graph**
+- **Bipartite Network Graph**
   - Links LMP nodes to their top 5 correlated constraints.
   - Offers insights into which constraints drive congestion across nodes.
 
